@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='lektor-strip-html-tags',
-    version='0.1',
+    version='0.2',
     author='Terminal Labs',
     author_email='solutions@terminallabs.com',
     description = u'Strip HTML tags, effectively turning HTML into plain text.',

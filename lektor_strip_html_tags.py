@@ -12,6 +12,6 @@ class StripHTMLTagsPlugin(Plugin):
             '''Accept string and return with html tags removed.
             '''
             r = re.compile('<.*?>')
-            rv = re.sub(r, '', str(raw_html))
+            rv = re.sub(r, '', str(raw_html)).strip() # Tends to have a ton of extra whitespace
             return rv
         self.env.jinja_env.filters['striphtmltags'] = striphtmltags_filter

@@ -24,12 +24,12 @@ setup(
     name='lektor-strip-html-tags',
     py_modules=['lektor_strip_html_tags'],
     url='https://github.com/terminal-labs/lektor-strip-html-tags',
-    version='0.2.2',
+    version='0.2.3',
     classifiers=[
         'Environment :: Plugins',
         'Environment :: Web Environment',
         'Framework :: Lektor',
-        'License :: OSI Approved :: MIT License',
+        'License :: OSI Approved :: BSD License',
     ],
     entry_points={
         'lektor.plugins': [

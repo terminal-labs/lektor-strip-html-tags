@@ -6,5 +6,10 @@ Example usage:
 
 `{{ this.body|striphtmltags }}`
 
-Where `this.body` is for example `<p><strong>Hello</strong>World!</p>`,
-`{{ this.body|striphtmltags }}` will return simply `Hello World!`.
+```jinja
+{% set var = '<p><strong>Hello</strong>World!</p>' %}
+{{ var|striphtmltags }}
+
+```
+
+The last example will render as "Hello World!"

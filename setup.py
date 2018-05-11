@@ -24,7 +24,7 @@ setup(
     name='lektor-strip-html-tags',
     py_modules=['lektor_strip_html_tags'],
     url='https://github.com/terminal-labs/lektor-strip-html-tags',
-    version='0.2.3',
+    version='0.3',
     classifiers=[
         'Environment :: Plugins',
         'Environment :: Web Environment',
